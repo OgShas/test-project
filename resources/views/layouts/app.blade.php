@@ -11,7 +11,7 @@
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 {{-- ===== HEADER ===== --}}
 <header class="bg-dark text-white py-3">
     @include('layouts.header')
