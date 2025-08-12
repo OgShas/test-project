@@ -12,6 +12,7 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
+
 {{-- ===== HEADER ===== --}}
 <header class="bg-dark text-white py-3">
     @include('layouts.header')
@@ -23,5 +24,6 @@
 <footer class="bg-light py-3 mt-auto border-top">
     @include('layouts.footer')
 </footer>
+
 </body>
 </html>
