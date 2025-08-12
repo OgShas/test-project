@@ -8,9 +8,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ $title ?? 'Homepage' }} | {{ config('app.name') }}</title>
 
-
-    {{-- Your custom CSS --}}
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
 
