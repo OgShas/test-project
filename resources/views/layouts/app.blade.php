@@ -18,7 +18,9 @@
     @include('layouts.header')
 </header>
 
-@yield('content')
+<div id="app">
+    @yield('content')
+</div>
 
 {{-- ===== FOOTER ===== --}}
 <footer class="bg-light py-3 mt-auto border-top">
