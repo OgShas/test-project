@@ -15,6 +15,6 @@ class PagesController extends Controller
     {
         $name = 'Aleksandar Genov';
 
-        return view('about')->with('name', $name);
+        return view('about.index')->with('name', $name);
     }
 }
