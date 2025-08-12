@@ -13,9 +13,10 @@
 
     {{-- Your custom CSS --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
-<body>
 
+<body>
 {{-- ===== HEADER ===== --}}
 <header class="bg-dark text-white py-3">
     @include('layouts.header')
